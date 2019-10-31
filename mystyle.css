@@ -6,7 +6,19 @@
     border: 0;
     box-sizing: border-box;
 }
+.column {
+  float: left;
+  width: 33.33%;
 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    background-color: #4444;
+}
 h1 {
     font-size: 7vw;
     margin-bottom: 1vw;
@@ -29,6 +41,14 @@ body {
 }
 .image_title {
     max-width: 100%;
+}
+.image_events {
+    display: block;
+  margin-left: 0 ;
+  margin-right: 0 ;
+  width: 100%;
+    margin-top: 3vw;
+    height: auto;
 }
 
 .article ,.footer {
@@ -84,17 +104,6 @@ h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
-}
-.image_events {
-    max-width: 100%;
-    margin-top: 3vw;
-}
-/* Add some padding and a grey background color to containers */
-.container {
-  padding: 10px;
-
 }
 
 /* Style the input elements and the submit button */
