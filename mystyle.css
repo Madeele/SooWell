@@ -6,7 +6,27 @@
     border: 0;
     box-sizing: border-box;
 }
+.column {
+    float: left;
+    padding: 5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 20%;
+    background-color: #A97B64;
+    color: #444444;
+    font-size: 4vw;
+    margin-top: 5vw;
+}
+.row {
+    align-content: center;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 h1 {
     font-size: 7vw;
     margin-bottom: 1vw;
