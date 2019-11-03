@@ -10,7 +10,7 @@
 /********************************FONTS*********************************/
 h1 {
     font-size: 7vw;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
     color: #444444;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     z-index: 1;
@@ -68,9 +68,9 @@ p {
 
 .greytext {
     color: grey;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    margin-bottom: 5vw;
+    margin-bottom: 2vw;
 }
 
 body {
@@ -276,8 +276,13 @@ input[type=submit]:hover {
         margin-top: 11vw;
     }
     h1 {
-        font-size: 11vw;
+        font-size: 15vw;
     }
     a#home {
     margin-top: 3vw;
+    }
+    h2 {
+        font-size: 5vw;
+        margin-bottom: 10vw;
+    }
 
