@@ -133,6 +133,7 @@ body {
 .vl {
     border-bottom: 2px solid grey;
     height: 100px;
+    width: 200px;
 }
 
 /******************Style the input elements and the submit button***************/
@@ -285,4 +286,6 @@ input[type=submit]:hover {
         font-size: 5vw;
         margin-bottom: 10vw;
     }
-
+   input[type=submit] {
+    font-size: 5vw;
+}
