@@ -259,5 +259,13 @@ input[type=submit]:hover {
         display: block;
         text-align: left;
     }
-
+    .column {
+    margin: 20% 20% 5% 20%;
+        width: 60%;
 }
+    .grid_text {
+        font-size: 5vw;
+    }
+    #text {
+        font-size: 8vw;
+    }
