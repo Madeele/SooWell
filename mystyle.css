@@ -145,16 +145,17 @@ body {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .imiges {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
 /* Clear floats after image containers */
-.rowimiges::after {
-  content: "";
-  clear: both;
-  display: table;
+.imigesrow::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 4vw;
 }
 
 /******************************LINKS********************************/
@@ -351,7 +352,3 @@ input[type=submit]:hover {
         margin-top: 3vw;
         height: auto;
     }
-
-
-
-
