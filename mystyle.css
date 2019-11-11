@@ -143,14 +143,13 @@ body {
     height: auto;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/************************ Three images************/
 .imiges {
     float: left;
     width: 33.33%;
     padding: 5px;
 }
 
-/* Clear floats after image containers */
 .imigesrow::after {
     content: "";
     clear: both;
@@ -204,14 +203,12 @@ input[type=submit]:hover {
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
 }
 
 /********************Set a specific color for each brand*********************/
 
-/* Facebook */
 .fa-facebook {
     background: #3B5998;
     color: white;
